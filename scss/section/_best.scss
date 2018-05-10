@@ -13,3 +13,12 @@
   padding: 0;
   margin-bottom: rem(60px);
 }
+
+.best__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.best__item {
+  text-align: center;  
+}

@@ -6,6 +6,7 @@
   position: relative;
 }
 
+//--- content alignment in a header ---//
 .header {
   width: 100%;
   display: flex;
@@ -18,12 +19,21 @@
   margin-right: auto;
 }
 // антипаттерн
+//.nav {
+//  margin-right: rem(15px);
+//  &__list {
+//    margin: 0;
+//    padding: 0;
+//  }
+//}
+
 .nav {
   margin-right: rem(15px);
-  &__list {
-    margin: 0;
-    padding: 0;
-  }
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item {
@@ -65,7 +75,7 @@
 }
 
 .hero__content {
-  width: 100%;
+//  width: 95%;
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;

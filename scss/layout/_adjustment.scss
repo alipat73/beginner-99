@@ -8,6 +8,7 @@
   min-height: 650px;
 }
 
+//--- container centered in all section --//
 .container {
   width: 940px;
   margin: 0 auto;
@@ -15,6 +16,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .section {
@@ -24,7 +26,9 @@
   min-height: 650px;
 }
 
+//--- order button ---//
 .order-link {
+  margin-right: rem(15px);
   min-width: rem(98px);
   padding: rem(10px) rem(17px);
   border-radius: 5px;
